@@ -1,7 +1,5 @@
 # CCQ
-<p align="left">
-    <img src="network/CCQ.png" width="100%" height="100%">
-</p>
+![image](network/CCQ.png)
 
 
 
