@@ -18,8 +18,13 @@ PyTorch==1.7.1<br />
 [batchgenerators](https://github.com/MIC-DKFZ/batchgenerators)<br />
 
 ## Usage
-
-### 0. MOTS Dataset Preparation
+### 0. Installation
+* Clone this repo
+```
+git clone git@github.com:Yang-007/CCQ.git
+cd CCQ
+```
+### 1. MOTS Dataset Preparation
 Before starting, MOTS should be re-built from the several medical organ and tumor segmentation datasets
 
 Partial-label task | Data source
@@ -50,7 +55,7 @@ The folder structure of dataset should be like
     ├── 1Kidney
     ├── ...
 
-### 1. Training
+### 2. Training
 * cd `network/' and run 
 ```python
 CUDA_VISIBLE_DEVICES=0,1,2,3 nohup python -m torch.distributed.launch --nproc_per_node=4 --master_port=$RANDOM train.py \
@@ -76,7 +81,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 nohup python -m torch.distributed.launch --nproc_pe
 >> train_result.txt &
 ```
 
-### 2. Evaluation
+### 3. Evaluation
 ```python
 CUDA_VISIBLE_DEVICES=0,1,2,3 nohup python evaluate.py \
 --val_list='list/MOTS/MOTS_test.txt' \
@@ -92,7 +97,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 nohup python evaluate.py \
 >> evaluate.txt &
 ```
 
-### 3. Post-processing
+### 4. Post-processing
 
 ```python
 nohup python postp_save.py --img_folder_path='outputs32q/CCQ_sgdlr1e2_2500_32q/' \
@@ -100,7 +105,7 @@ nohup python postp_save.py --img_folder_path='outputs32q/CCQ_sgdlr1e2_2500_32q/'
 >>postp.txt &
 ```
 
-## 4.Acknowledgement
+## Acknowledgement
 
 Part of code obtained from [DoDNet](https://git.io/DoDNet) codebase.
 
