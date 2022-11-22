@@ -1,5 +1,5 @@
 # CCQ
-![image](network/CCQ.png)
+![image](code/network/CCQ.png)
 
 
 
