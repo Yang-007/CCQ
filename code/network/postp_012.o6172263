@@ -1,0 +1,156 @@
+postp_save.py:204: DeprecationWarning: get_data() is deprecated in favor of get_fdata(), which has a more predictable return type. To obtain get_data() behavior going forward, use numpy.asanyarray(img.dataobj).
+
+* deprecated from version: 3.0
+* Will raise <class 'nibabel.deprecator.ExpiredDeprecationError'> as of version: 5.0
+  pred = predNII.get_data()
+postp_save.py:205: DeprecationWarning: get_data() is deprecated in favor of get_fdata(), which has a more predictable return type. To obtain get_data() behavior going forward, use numpy.asanyarray(img.dataobj).
+
+* deprecated from version: 3.0
+* Will raise <class 'nibabel.deprecator.ExpiredDeprecationError'> as of version: 5.0
+  label = labelNII.get_data()
+postp_save.py:64: UserWarning: The argument 'neighbors' is deprecated and will be removed in scikit-image 0.18, use 'connectivity' instead. For neighbors=4, use connectivity=1
+  L, n = LAB(pred_tumor, neighbors=4, background=0, connectivity=2, return_num=True)
+postp_save.py:32: UserWarning: The argument 'neighbors' is deprecated and will be removed in scikit-image 0.18, use 'connectivity' instead. For neighbors=4, use connectivity=1
+  L, n = LAB(regions, neighbors=4, background=0, connectivity=2, return_num=True)
+postp_save.py:51: UserWarning: The argument 'neighbors' is deprecated and will be removed in scikit-image 0.18, use 'connectivity' instead. For neighbors=4, use connectivity=1
+  L, n = LAB(regions, neighbors=4, background=0, connectivity=2, return_num=True)
+postp_save.py:91: UserWarning: The argument 'neighbors' is deprecated and will be removed in scikit-image 0.18, use 'connectivity' instead. For neighbors=4, use connectivity=1
+  L, n = LAB(tumor, neighbors=4, background=0, connectivity=2, return_num=True)
+case_00000: Organ_Dice 0.980798, tumor_Dice 0.831507 | Organ_HD 1.000000, tumor_HD 2.000000
+case_00005: Organ_Dice 0.952105, tumor_Dice 0.898055 | Organ_HD 3.000000, tumor_HD 4.123106
+case_00010: Organ_Dice 0.962375, tumor_Dice 0.918477 | Organ_HD 1.414214, tumor_HD 1.000000
+case_00015: Organ_Dice 0.975598, tumor_Dice 0.926146 | Organ_HD 1.000000, tumor_HD 1.000000
+case_00020: Organ_Dice 0.967834, tumor_Dice 0.151815 | Organ_HD 1.414214, tumor_HD 12.041595
+case_00025: Organ_Dice 0.961378, tumor_Dice 0.872526 | Organ_HD 3.000000, tumor_HD 9.433981
+case_00030: Organ_Dice 0.968426, tumor_Dice 0.959952 | Organ_HD 2.236068, tumor_HD 3.605551
+case_00035: Organ_Dice 0.963821, tumor_Dice 0.858293 | Organ_HD 1.000000, tumor_HD 3.000000
+case_00040: Organ_Dice 0.961945, tumor_Dice 0.863793 | Organ_HD 2.000000, tumor_HD 1.414214
+case_00045: Organ_Dice 0.938286, tumor_Dice 0.858983 | Organ_HD 2.000000, tumor_HD 7.348469
+case_00050: Organ_Dice 0.974078, tumor_Dice 0.457612 | Organ_HD 1.000000, tumor_HD 8.124038
+case_00055: Organ_Dice 0.968212, tumor_Dice 0.953769 | Organ_HD 1.414214, tumor_HD 2.449490
+case_00060: Organ_Dice 0.954859, tumor_Dice 0.903878 | Organ_HD 2.000000, tumor_HD 3.000000
+case_00065: Organ_Dice 0.969479, tumor_Dice 0.716526 | Organ_HD 1.000000, tumor_HD 3.000000
+case_00070: Organ_Dice 0.953799, tumor_Dice 0.909706 | Organ_HD 3.000000, tumor_HD 7.348469
+case_00075: Organ_Dice 0.955534, tumor_Dice 0.829899 | Organ_HD 1.732051, tumor_HD 2.000000
+case_00080: Organ_Dice 0.967282, tumor_Dice 0.901594 | Organ_HD 1.000000, tumor_HD 2.000000
+case_00085: Organ_Dice 0.967784, tumor_Dice 0.848649 | Organ_HD 1.000000, tumor_HD 2.000000
+case_00090: Organ_Dice 0.972584, tumor_Dice 0.897392 | Organ_HD 1.000000, tumor_HD 4.582576
+case_00095: Organ_Dice 0.969348, tumor_Dice 0.915002 | Organ_HD 1.000000, tumor_HD 3.000000
+case_00100: Organ_Dice 0.978099, tumor_Dice 0.822830 | Organ_HD 1.000000, tumor_HD 2.000000
+case_00105: Organ_Dice 0.962159, tumor_Dice 0.853571 | Organ_HD 1.414214, tumor_HD 3.000000
+case_00110: Organ_Dice 0.955393, tumor_Dice 0.703984 | Organ_HD 1.000000, tumor_HD 4.898979
+case_00115: Organ_Dice 0.982098, tumor_Dice 0.883598 | Organ_HD 1.000000, tumor_HD 1.414214
+case_00120: Organ_Dice 0.969646, tumor_Dice 0.470410 | Organ_HD 1.000000, tumor_HD 3.741657
+case_00125: Organ_Dice 0.981365, tumor_Dice 0.858874 | Organ_HD 1.000000, tumor_HD 1.732051
+case_00130: Organ_Dice 0.966138, tumor_Dice 0.830985 | Organ_HD 1.000000, tumor_HD 9.219544
+case_00135: Organ_Dice 0.981140, tumor_Dice 0.970802 | Organ_HD 1.000000, tumor_HD 2.000000
+case_00140: Organ_Dice 0.978827, tumor_Dice 0.682428 | Organ_HD 1.000000, tumor_HD 5.196152
+case_00145: Organ_Dice 0.946712, tumor_Dice 0.827620 | Organ_HD 2.449490, tumor_HD 6.324555
+case_00150: Organ_Dice 0.975513, tumor_Dice 0.853559 | Organ_HD 1.000000, tumor_HD 2.236068
+case_00155: Organ_Dice 0.965865, tumor_Dice 0.722953 | Organ_HD 2.000000, tumor_HD 3.316625
+case_00160: Organ_Dice 0.973391, tumor_Dice 0.851088 | Organ_HD 1.414214, tumor_HD 4.000000
+case_00165: Organ_Dice 0.980218, tumor_Dice 0.300718 | Organ_HD 1.000000, tumor_HD 8.348607
+case_00170: Organ_Dice 0.969358, tumor_Dice 0.910137 | Organ_HD 1.414214, tumor_HD 2.000000
+case_00175: Organ_Dice 0.960098, tumor_Dice 0.777452 | Organ_HD 1.000000, tumor_HD 5.000000
+case_00180: Organ_Dice 0.965325, tumor_Dice 0.918043 | Organ_HD 1.732051, tumor_HD 2.449490
+case_00185: Organ_Dice 0.970866, tumor_Dice 0.888217 | Organ_HD 1.414214, tumor_HD 3.000000
+case_00190: Organ_Dice 0.975510, tumor_Dice 0.837248 | Organ_HD 1.000000, tumor_HD 3.605551
+case_00195: Organ_Dice 0.964873, tumor_Dice 0.915367 | Organ_HD 1.414214, tumor_HD 3.162278
+case_00200: Organ_Dice 0.953090, tumor_Dice 0.925777 | Organ_HD 2.000000, tumor_HD 2.449490
+case_00205: Organ_Dice 0.965022, tumor_Dice 0.243002 | Organ_HD 1.000000, tumor_HD 43.760713
+hepaticvessel_001.nii: Organ_Dice 0.721295, tumor_Dice 0.411822 | Organ_HD 4.123106, tumor_HD 7.810250
+hepaticvessel_008.nii: Organ_Dice 0.663712, tumor_Dice 0.658967 | Organ_HD 20.024984, tumor_HD 8.774964
+hepaticvessel_018.nii: Organ_Dice 0.629558, tumor_Dice 0.944632 | Organ_HD 31.622777, tumor_HD 3.316625
+hepaticvessel_025.nii: Organ_Dice 0.619404, tumor_Dice 0.932600 | Organ_HD 9.000000, tumor_HD 8.544004
+hepaticvessel_030.nii: Organ_Dice 0.697004, tumor_Dice 0.856452 | Organ_HD 6.403124, tumor_HD 6.000000
+hepaticvessel_040.nii: Organ_Dice 0.697739, tumor_Dice 0.912200 | Organ_HD 7.810250, tumor_HD 3.162278
+hepaticvessel_050.nii: Organ_Dice 0.723260, tumor_Dice 0.940005 | Organ_HD 6.782330, tumor_HD 3.741657
+hepaticvessel_058.nii: Organ_Dice 0.587287, tumor_Dice 0.937705 | Organ_HD 11.489125, tumor_HD 5.830952
+hepaticvessel_066.nii: Organ_Dice 0.541921, tumor_Dice 0.912159 | Organ_HD 15.937377, tumor_HD 7.348469
+hepaticvessel_072.nii: Organ_Dice 0.685809, tumor_Dice 0.235387 | Organ_HD 9.000000, tumor_HD 35.440090
+hepaticvessel_080.nii: Organ_Dice 0.649157, tumor_Dice 0.844072 | Organ_HD 18.973666, tumor_HD 4.472136
+hepaticvessel_085.nii: Organ_Dice 0.651802, tumor_Dice 0.361339 | Organ_HD 9.797959, tumor_HD 51.633323
+hepaticvessel_090.nii: Organ_Dice 0.507603, tumor_Dice 0.898288 | Organ_HD 15.264338, tumor_HD 5.099020
+hepaticvessel_096.nii: Organ_Dice 0.698806, tumor_Dice 0.884326 | Organ_HD 8.306624, tumor_HD 3.162278
+hepaticvessel_103.nii: Organ_Dice 0.645333, tumor_Dice 0.743675 | Organ_HD 9.165151, tumor_HD 3.162278
+hepaticvessel_112.nii: Organ_Dice 0.618495, tumor_Dice 0.920119 | Organ_HD 15.842980, tumor_HD 5.830952
+hepaticvessel_119.nii: Organ_Dice 0.414866, tumor_Dice 0.917000 | Organ_HD 29.580399, tumor_HD 3.162278
+hepaticvessel_127.nii: Organ_Dice 0.595875, tumor_Dice 0.938353 | Organ_HD 20.615528, tumor_HD 4.898979
+hepaticvessel_133.nii: Organ_Dice 0.404690, tumor_Dice 0.793080 | Organ_HD 22.737634, tumor_HD 7.000000
+hepaticvessel_140.nii: Organ_Dice 0.520938, tumor_Dice 0.824710 | Organ_HD 12.124356, tumor_HD 34.332924
+hepaticvessel_146.nii: Organ_Dice 0.518750, tumor_Dice 0.825157 | Organ_HD 54.812406, tumor_HD 11.575837
+hepaticvessel_154.nii: Organ_Dice 0.475545, tumor_Dice 0.834235 | Organ_HD 16.840406, tumor_HD 3.000000
+hepaticvessel_161.nii: Organ_Dice 0.690393, tumor_Dice 0.321623 | Organ_HD 10.476143, tumor_HD 32.506922
+hepaticvessel_167.nii: Organ_Dice 0.669667, tumor_Dice 0.790022 | Organ_HD 17.972201, tumor_HD 11.045361
+hepaticvessel_175.nii: Organ_Dice 0.568840, tumor_Dice 0.859377 | Organ_HD 12.529964, tumor_HD 4.242641
+hepaticvessel_183.nii: Organ_Dice 0.607799, tumor_Dice 0.868525 | Organ_HD 14.560220, tumor_HD 5.099020
+hepaticvessel_192.nii: Organ_Dice 0.672328, tumor_Dice 0.764917 | Organ_HD 8.062258, tumor_HD 6.164414
+hepaticvessel_197.nii: Organ_Dice 0.582441, tumor_Dice 0.849074 | Organ_HD 14.486195, tumor_HD 3.605551
+hepaticvessel_203.nii: Organ_Dice 0.592688, tumor_Dice 0.954625 | Organ_HD 17.492856, tumor_HD 3.000000
+hepaticvessel_210.nii: Organ_Dice 0.574624, tumor_Dice 0.725253 | Organ_HD 14.282857, tumor_HD 11.045361
+hepaticvessel_217.nii: Organ_Dice 0.536431, tumor_Dice 0.473905 | Organ_HD 13.490738, tumor_HD 14.456832
+hepaticvessel_223.nii: Organ_Dice 0.691213, tumor_Dice 0.876990 | Organ_HD 5.830952, tumor_HD 4.582576
+hepaticvessel_230.nii: Organ_Dice 0.742957, tumor_Dice 0.521143 | Organ_HD 10.488088, tumor_HD 21.283797
+hepaticvessel_236.nii: Organ_Dice 0.566647, tumor_Dice 0.511797 | Organ_HD 17.262677, tumor_HD 152.115088
+hepaticvessel_244.nii: Organ_Dice 0.385458, tumor_Dice 0.737702 | Organ_HD 25.396850, tumor_HD 3.741657
+hepaticvessel_256.nii: Organ_Dice 0.594172, tumor_Dice 0.776826 | Organ_HD 16.155494, tumor_HD 16.155494
+hepaticvessel_265.nii: Organ_Dice 0.668064, tumor_Dice 0.670594 | Organ_HD 7.141428, tumor_HD 4.582576
+hepaticvessel_271.nii: Organ_Dice 0.702299, tumor_Dice 0.842316 | Organ_HD 5.477226, tumor_HD 8.306624
+hepaticvessel_279.nii: Organ_Dice 0.758349, tumor_Dice 0.674510 | Organ_HD 6.708204, tumor_HD 4.242641
+hepaticvessel_285.nii: Organ_Dice 0.619716, tumor_Dice 0.461862 | Organ_HD 8.774964, tumor_HD 20.821860
+hepaticvessel_291.nii: Organ_Dice 0.766154, tumor_Dice 0.729557 | Organ_HD 2.000000, tumor_HD 35.793854
+hepaticvessel_299.nii: Organ_Dice 0.720587, tumor_Dice 0.875268 | Organ_HD 17.521415, tumor_HD 2.236068
+hepaticvessel_308.nii: Organ_Dice 0.596150, tumor_Dice 0.802440 | Organ_HD 12.247449, tumor_HD 4.582576
+hepaticvessel_320.nii: Organ_Dice 0.657103, tumor_Dice 0.841164 | Organ_HD 8.602325, tumor_HD 2.449490
+hepaticvessel_325.nii: Organ_Dice 0.700370, tumor_Dice 0.797876 | Organ_HD 9.848858, tumor_HD 103.959607
+hepaticvessel_333.nii: Organ_Dice 0.459418, tumor_Dice 0.777003 | Organ_HD 20.273135, tumor_HD 26.711419
+hepaticvessel_341.nii: Organ_Dice 0.630903, tumor_Dice 0.766329 | Organ_HD 13.601471, tumor_HD 146.257307
+hepaticvessel_350.nii: Organ_Dice 0.750848, tumor_Dice 0.808782 | Organ_HD 4.582576, tumor_HD 38.442164
+hepaticvessel_361.nii: Organ_Dice 0.608930, tumor_Dice 0.889879 | Organ_HD 15.842980, tumor_HD 2.449490
+hepaticvessel_369.nii: Organ_Dice 0.634928, tumor_Dice 0.851702 | Organ_HD 40.176485, tumor_HD 2.449490
+hepaticvessel_375.nii: Organ_Dice 0.551224, tumor_Dice 0.922275 | Organ_HD 23.086793, tumor_HD 4.472136
+hepaticvessel_384.nii: Organ_Dice 0.771809, tumor_Dice 0.760261 | Organ_HD 2.236068, tumor_HD 44.410584
+hepaticvessel_391.nii: Organ_Dice 0.640734, tumor_Dice 0.868416 | Organ_HD 11.995819, tumor_HD 3.316625
+hepaticvessel_400.nii: Organ_Dice 0.673954, tumor_Dice 0.848993 | Organ_HD 9.165151, tumor_HD 31.148030
+hepaticvessel_407.nii: Organ_Dice 0.730359, tumor_Dice 0.807645 | Organ_HD 8.660254, tumor_HD 6.164414
+hepaticvessel_416.nii: Organ_Dice 0.763680, tumor_Dice 0.664360 | Organ_HD 4.242641, tumor_HD 159.934361
+hepaticvessel_424.nii: Organ_Dice 0.779512, tumor_Dice 0.894268 | Organ_HD 2.236068, tumor_HD 4.000000
+hepaticvessel_432.nii: Organ_Dice 0.548156, tumor_Dice 0.812323 | Organ_HD 23.280893, tumor_HD 2.000000
+hepaticvessel_440.nii: Organ_Dice 0.403864, tumor_Dice 0.829563 | Organ_HD 15.748016, tumor_HD 3.464102
+hepaticvessel_445.nii: Organ_Dice 0.734094, tumor_Dice 0.476960 | Organ_HD 4.472136, tumor_HD 20.149442
+hepaticvessel_455.nii: Organ_Dice 0.508254, tumor_Dice 0.703381 | Organ_HD 13.000000, tumor_HD 67.564414
+liver_0.nii: Organ_Dice 0.959813, tumor_Dice 0.687489 | Organ_HD 3.000000, tumor_HD 52.274260
+liver_102.nii: Organ_Dice 0.980063, tumor_Dice 0.800106 | Organ_HD 1.732051, tumor_HD 4.358899
+liver_107.nii: Organ_Dice 0.968960, tumor_Dice 0.603534 | Organ_HD 2.828427, tumor_HD 134.432139
+liver_111.nii: Organ_Dice 0.983653, tumor_Dice 0.551169 | Organ_HD 1.414214, tumor_HD 42.388080
+liver_116.nii: Organ_Dice 0.984909, tumor_Dice 0.000000 | Organ_HD 1.414214, tumor_HD 134.411123
+liver_120.nii: Organ_Dice 0.974354, tumor_Dice 0.703894 | Organ_HD 2.236068, tumor_HD 3.162278
+liver_125.nii: Organ_Dice 0.981577, tumor_Dice 0.828530 | Organ_HD 1.414214, tumor_HD 1.414214
+liver_13.nii: Organ_Dice 0.969875, tumor_Dice 0.589308 | Organ_HD 2.828427, tumor_HD 37.820593
+liver_17.nii: Organ_Dice 0.979503, tumor_Dice 0.855761 | Organ_HD 2.236068, tumor_HD 2.236068
+liver_21.nii: Organ_Dice 0.974261, tumor_Dice 0.608575 | Organ_HD 2.828427, tumor_HD 8.124038
+liver_26.nii: Organ_Dice 0.974860, tumor_Dice 0.864305 | Organ_HD 2.236068, tumor_HD 2.449490
+liver_30.nii: Organ_Dice 0.952013, tumor_Dice 0.292990 | Organ_HD 6.708204, tumor_HD 102.729499
+liver_35.nii: Organ_Dice 0.961419, tumor_Dice 0.183384 | Organ_HD 8.774964, tumor_HD 25.514702
+liver_4.nii: Organ_Dice 0.927484, tumor_Dice 0.677873 | Organ_HD 13.416408, tumor_HD 28.284271
+liver_44.nii: Organ_Dice 0.966184, tumor_Dice 0.684306 | Organ_HD 2.236068, tumor_HD 21.840330
+liver_49.nii: Organ_Dice 0.942454, tumor_Dice 0.691188 | Organ_HD 5.477226, tumor_HD 43.289722
+liver_53.nii: Organ_Dice 0.960657, tumor_Dice 0.570291 | Organ_HD 5.385165, tumor_HD 8.544004
+liver_58.nii: Organ_Dice 0.947951, tumor_Dice 0.574734 | Organ_HD 6.782330, tumor_HD 30.364453
+liver_62.nii: Organ_Dice 0.969581, tumor_Dice 0.747643 | Organ_HD 3.162278, tumor_HD 2.828427
+liver_67.nii: Organ_Dice 0.967399, tumor_Dice 0.629592 | Organ_HD 3.464102, tumor_HD 2.828427
+liver_71.nii: Organ_Dice 0.958266, tumor_Dice 0.691246 | Organ_HD 3.741657, tumor_HD 12.083046
+liver_76.nii: Organ_Dice 0.962410, tumor_Dice 0.906164 | Organ_HD 4.472136, tumor_HD 2.828427
+liver_80.nii: Organ_Dice 0.969941, tumor_Dice 0.889681 | Organ_HD 3.605551, tumor_HD 3.741657
+liver_85.nii: Organ_Dice 0.978462, tumor_Dice 0.497818 | Organ_HD 2.236068, tumor_HD 68.947443
+liver_9.nii: Organ_Dice 0.972850, tumor_Dice 0.860891 | Organ_HD 2.236068, tumor_HD 2.236068
+liver_94.nii: Organ_Dice 0.962890, tumor_Dice 0.699255 | Organ_HD 3.162278, tumor_HD 33.075671
+liver_99.nii: Organ_Dice 0.979805, tumor_Dice 0.675542 | Organ_HD 1.732051, tumor_HD 30.618592
+Sum results
+Sum: Task0- Organ_Dice:0.9671 Tumor_Dice:0.6432 | Organ_HD:3.7319 Tumor_HD:31.2158
+Sum: Task1- Organ_Dice:0.9668 Tumor_Dice:0.7981 | Organ_HD:1.4396 Tumor_HD:4.8887
+Sum: Task2- Organ_Dice:0.6250 Tumor_Dice:0.7694 | Organ_HD:13.8634 Tumor_HD:20.7583
+Sum: Task3- Organ_Dice:0.0000 Tumor_Dice:0.0000 | Organ_HD:0.0000 Tumor_HD:0.0000
+Sum: Task4- Organ_Dice:0.0000 Tumor_Dice:0.0000 | Organ_HD:0.0000 Tumor_HD:0.0000
+Sum: Task5- Organ_Dice:0.0000 Tumor_Dice:0.0000 | Organ_HD:0.0000 Tumor_HD:0.0000
+Sum: Task6- Organ_Dice:0.0000 Tumor_Dice:0.0000 | Organ_HD:0.0000 Tumor_HD:0.0000

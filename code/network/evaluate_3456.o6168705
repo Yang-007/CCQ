@@ -1,0 +1,223 @@
+[32m21 09:07:43 [0mPyTorch Version 1.7.1
+ArgumentParser(prog='evaluate.py', usage=None, description='MOTS: CQTr solution!', formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True)
+loading from checkpoint: snapshots/CCQ_sgdlr1e2_2500_32q/MOTS_CQTr_snapshots_e1900.pth
+105 images are loaded!
+evaluate {} pancreas_001.nii
+evaluate {} pancreas_021.nii
+evaluate {} pancreas_042.nii
+evaluate {} pancreas_056.nii
+evaluate {} pancreas_075.nii
+evaluate {} pancreas_089.nii
+evaluate {} pancreas_101.nii
+evaluate {} pancreas_113.nii
+evaluate {} pancreas_129.nii
+evaluate {} pancreas_149.nii
+evaluate {} pancreas_170.nii
+evaluate {} pancreas_186.nii
+evaluate {} pancreas_201.nii
+evaluate {} pancreas_215.nii
+evaluate {} pancreas_229.nii
+evaluate {} pancreas_244.nii
+evaluate {} pancreas_261.nii
+evaluate {} pancreas_275.nii
+evaluate {} pancreas_287.nii
+evaluate {} pancreas_298.nii
+evaluate {} pancreas_310.nii
+evaluate {} pancreas_325.nii
+evaluate {} pancreas_339.nii
+evaluate {} pancreas_354.nii
+evaluate {} pancreas_366.nii
+evaluate {} pancreas_379.nii
+evaluate {} pancreas_393.nii
+evaluate {} pancreas_409.nii
+evaluate {} pancreas_421.nii
+evaluate {} colon_009.nii
+evaluate {} colon_029.nii
+evaluate {} colon_042.nii
+evaluate {} colon_065.nii
+evaluate {} colon_088.nii
+evaluate {} colon_103.nii
+evaluate {} colon_118.nii
+evaluate {} colon_134.nii
+evaluate {} colon_145.nii
+evaluate {} colon_164.nii
+evaluate {} colon_185.nii
+evaluate {} colon_206.nii
+evaluate {} colon_219.nii
+evaluate {} lung_009.nii
+evaluate {} lung_026.nii
+evaluate {} lung_041.nii
+evaluate {} lung_053.nii
+evaluate {} lung_066.nii
+evaluate {} lung_081.nii
+evaluate {} spleen_10.nii
+evaluate {} spleen_21.nii
+evaluate {} spleen_32.nii
+evaluate {} spleen_52.nii
+evaluate {} spleen_9.nii
+evaluate {} pancreas_012.nii
+evaluate {} pancreas_032.nii
+evaluate {} pancreas_049.nii
+evaluate {} pancreas_067.nii
+evaluate {} pancreas_083.nii
+evaluate {} pancreas_095.nii
+evaluate {} pancreas_106.nii
+evaluate {} pancreas_122.nii
+evaluate {} pancreas_138.nii
+evaluate {} pancreas_160.nii
+evaluate {} pancreas_179.nii
+evaluate {} pancreas_196.nii
+evaluate {} pancreas_210.nii
+evaluate {} pancreas_224.nii
+evaluate {} pancreas_236.nii
+evaluate {} pancreas_254.nii
+evaluate {} pancreas_267.nii
+evaluate {} pancreas_280.nii
+evaluate {} pancreas_293.nii
+evaluate {} pancreas_303.nii
+evaluate {} pancreas_316.nii
+evaluate {} pancreas_330.nii
+evaluate {} pancreas_346.nii
+evaluate {} pancreas_360.nii
+evaluate {} pancreas_374.nii
+evaluate {} pancreas_387.nii
+evaluate {} pancreas_401.nii
+evaluate {} pancreas_414.nii
+evaluate {} colon_001.nii
+evaluate {} colon_024.nii
+evaluate {} colon_036.nii
+evaluate {} colon_053.nii
+evaluate {} colon_075.nii
+evaluate {} colon_096.nii
+evaluate {} colon_111.nii
+evaluate {} colon_126.nii
+evaluate {} colon_140.nii
+evaluate {} colon_157.nii
+evaluate {} colon_171.nii
+evaluate {} colon_196.nii
+evaluate {} colon_214.nii
+evaluate {} lung_001.nii
+evaluate {} lung_018.nii
+evaluate {} lung_033.nii
+evaluate {} lung_046.nii
+evaluate {} lung_059.nii
+evaluate {} lung_074.nii
+evaluate {} lung_093.nii
+evaluate {} spleen_17.nii
+evaluate {} spleen_27.nii
+evaluate {} spleen_44.nii
+evaluate {} spleen_60.nii
+Task3-['pancreas_001.nii'] loss:1.0000 Organ:0.8792 Tumor:0.1968
+Task3-['pancreas_012.nii'] loss:1.0000 Organ:0.7123 Tumor:0.7305
+Task3-['pancreas_021.nii'] loss:1.0000 Organ:0.8567 Tumor:0.7008
+Task3-['pancreas_032.nii'] loss:1.0000 Organ:0.7825 Tumor:0.4334
+Task3-['pancreas_042.nii'] loss:1.0000 Organ:0.7769 Tumor:0.8415
+Task3-['pancreas_049.nii'] loss:1.0000 Organ:0.7271 Tumor:0.3530
+Task3-['pancreas_056.nii'] loss:1.0000 Organ:0.8184 Tumor:0.0108
+Task3-['pancreas_067.nii'] loss:1.0000 Organ:0.8863 Tumor:0.0638
+Task3-['pancreas_075.nii'] loss:1.0000 Organ:0.8446 Tumor:0.7945
+Task3-['pancreas_083.nii'] loss:1.0000 Organ:0.8484 Tumor:0.7608
+Task3-['pancreas_089.nii'] loss:1.0000 Organ:0.7658 Tumor:0.5664
+Task3-['pancreas_095.nii'] loss:1.0000 Organ:0.8666 Tumor:0.7796
+Task3-['pancreas_101.nii'] loss:1.0000 Organ:0.8199 Tumor:0.6665
+Task3-['pancreas_106.nii'] loss:1.0000 Organ:0.8500 Tumor:0.2772
+Task3-['pancreas_113.nii'] loss:1.0000 Organ:0.8671 Tumor:0.8951
+Task3-['pancreas_122.nii'] loss:1.0000 Organ:0.8128 Tumor:0.7979
+Task3-['pancreas_129.nii'] loss:1.0000 Organ:0.8010 Tumor:0.6546
+Task3-['pancreas_138.nii'] loss:1.0000 Organ:0.8531 Tumor:0.7721
+Task3-['pancreas_149.nii'] loss:1.0000 Organ:0.8052 Tumor:0.8741
+Task3-['pancreas_160.nii'] loss:1.0000 Organ:0.8352 Tumor:0.8198
+Task3-['pancreas_170.nii'] loss:1.0000 Organ:0.7890 Tumor:0.4984
+Task3-['pancreas_179.nii'] loss:1.0000 Organ:0.9202 Tumor:0.5174
+Task3-['pancreas_186.nii'] loss:1.0000 Organ:0.6248 Tumor:0.6319
+Task3-['pancreas_196.nii'] loss:1.0000 Organ:0.8652 Tumor:0.3683
+Task3-['pancreas_201.nii'] loss:1.0000 Organ:0.7721 Tumor:0.8009
+Task3-['pancreas_210.nii'] loss:1.0000 Organ:0.8821 Tumor:0.4132
+Task3-['pancreas_215.nii'] loss:1.0000 Organ:0.9021 Tumor:0.0008
+Task3-['pancreas_224.nii'] loss:1.0000 Organ:0.8219 Tumor:0.5146
+Task3-['pancreas_229.nii'] loss:1.0000 Organ:0.8570 Tumor:0.4964
+Task3-['pancreas_236.nii'] loss:1.0000 Organ:0.7968 Tumor:0.7989
+Task3-['pancreas_244.nii'] loss:1.0000 Organ:0.8512 Tumor:0.5587
+Task3-['pancreas_254.nii'] loss:1.0000 Organ:0.7803 Tumor:0.5445
+Task3-['pancreas_261.nii'] loss:1.0000 Organ:0.8567 Tumor:0.5246
+Task3-['pancreas_267.nii'] loss:1.0000 Organ:0.7974 Tumor:0.0002
+Task3-['pancreas_275.nii'] loss:1.0000 Organ:0.8806 Tumor:0.7310
+Task3-['pancreas_280.nii'] loss:1.0000 Organ:0.8932 Tumor:0.7356
+Task3-['pancreas_287.nii'] loss:1.0000 Organ:0.8692 Tumor:0.7794
+Task3-['pancreas_293.nii'] loss:1.0000 Organ:0.8868 Tumor:0.5370
+Task3-['pancreas_298.nii'] loss:1.0000 Organ:0.8022 Tumor:0.7348
+Task3-['pancreas_303.nii'] loss:1.0000 Organ:0.7850 Tumor:0.6470
+Task3-['pancreas_310.nii'] loss:1.0000 Organ:0.7590 Tumor:0.6157
+Task3-['pancreas_316.nii'] loss:1.0000 Organ:0.8077 Tumor:0.8168
+Task3-['pancreas_325.nii'] loss:1.0000 Organ:0.7746 Tumor:0.5184
+Task3-['pancreas_330.nii'] loss:1.0000 Organ:0.8088 Tumor:0.5921
+Task3-['pancreas_339.nii'] loss:1.0000 Organ:0.7863 Tumor:0.5564
+Task3-['pancreas_346.nii'] loss:1.0000 Organ:0.6189 Tumor:0.1827
+Task3-['pancreas_354.nii'] loss:1.0000 Organ:0.5732 Tumor:0.6345
+Task3-['pancreas_360.nii'] loss:1.0000 Organ:0.7704 Tumor:0.5265
+Task3-['pancreas_366.nii'] loss:1.0000 Organ:0.8845 Tumor:0.7341
+Task3-['pancreas_374.nii'] loss:1.0000 Organ:0.8582 Tumor:0.5718
+Task3-['pancreas_379.nii'] loss:1.0000 Organ:0.8111 Tumor:0.7082
+Task3-['pancreas_387.nii'] loss:1.0000 Organ:0.8802 Tumor:0.7468
+Task3-['pancreas_393.nii'] loss:1.0000 Organ:0.7383 Tumor:0.8406
+Task3-['pancreas_401.nii'] loss:1.0000 Organ:0.7620 Tumor:0.6007
+Task3-['pancreas_409.nii'] loss:1.0000 Organ:0.6180 Tumor:0.7692
+Task3-['pancreas_414.nii'] loss:1.0000 Organ:0.4591 Tumor:0.1217
+Task3-['pancreas_421.nii'] loss:1.0000 Organ:0.8517 Tumor:0.4419
+Task4-['colon_001.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.0014
+Task4-['colon_009.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.6338
+Task4-['colon_024.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.5647
+Task4-['colon_029.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.7093
+Task4-['colon_036.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.3996
+Task4-['colon_042.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.0137
+Task4-['colon_053.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.2823
+Task4-['colon_065.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.5159
+Task4-['colon_075.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.1353
+Task4-['colon_088.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.5134
+Task4-['colon_096.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.3969
+Task4-['colon_103.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.0061
+Task4-['colon_111.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.6258
+Task4-['colon_118.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.6556
+Task4-['colon_126.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.6126
+Task4-['colon_134.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.0647
+Task4-['colon_140.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.6755
+Task4-['colon_145.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.6675
+Task4-['colon_157.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.6484
+Task4-['colon_164.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.4890
+Task4-['colon_171.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.4994
+Task4-['colon_185.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.3746
+Task4-['colon_196.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.1418
+Task4-['colon_206.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.5282
+Task4-['colon_214.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.0942
+Task4-['colon_219.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.7182
+Task5-['lung_001.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.2272
+Task5-['lung_009.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.3243
+Task5-['lung_018.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.2098
+Task5-['lung_026.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.2866
+Task5-['lung_033.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.4033
+Task5-['lung_041.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.5823
+Task5-['lung_046.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.6767
+Task5-['lung_053.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.2764
+Task5-['lung_059.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.4817
+Task5-['lung_066.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.5985
+Task5-['lung_074.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.5810
+Task5-['lung_081.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.2004
+Task5-['lung_093.nii'] loss:1.0000 Organ:-999.0000 Tumor:0.2797
+Task6-['spleen_10.nii'] loss:1.0000 Organ:0.7241 Tumor:-999.0000
+Task6-['spleen_17.nii'] loss:1.0000 Organ:0.8586 Tumor:-999.0000
+Task6-['spleen_21.nii'] loss:1.0000 Organ:0.8929 Tumor:-999.0000
+Task6-['spleen_27.nii'] loss:1.0000 Organ:0.8499 Tumor:-999.0000
+Task6-['spleen_32.nii'] loss:1.0000 Organ:0.8308 Tumor:-999.0000
+Task6-['spleen_44.nii'] loss:1.0000 Organ:0.4586 Tumor:-999.0000
+Task6-['spleen_52.nii'] loss:1.0000 Organ:0.6988 Tumor:-999.0000
+Task6-['spleen_60.nii'] loss:1.0000 Organ:0.8525 Tumor:-999.0000
+Task6-['spleen_9.nii'] loss:1.0000 Organ:0.9227 Tumor:-999.0000
+Sum results
+Sum: Task0- loss:0.0000 Organ:0.0000 Tumor:0.0000
+Sum: Task1- loss:0.0000 Organ:0.0000 Tumor:0.0000
+Sum: Task2- loss:0.0000 Organ:0.0000 Tumor:0.0000
+Sum: Task3- loss:1.0000 Organ:0.8036 Tumor:0.5755
+Sum: Task4- loss:1.0000 Organ:0.0000 Tumor:0.4218
+Sum: Task5- loss:1.0000 Organ:0.0000 Tumor:0.3944
+Sum: Task6- loss:1.0000 Organ:0.7877 Tumor:0.0000
+23033.038436170667 seconds

@@ -1,0 +1,273 @@
+[32m21 09:07:43 [0mPyTorch Version 1.7.1
+ArgumentParser(prog='evaluate.py', usage=None, description='MOTS: CQTr solution!', formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=True)
+loading from checkpoint: snapshots/CCQ_sgdlr1e2_2500_32q/MOTS_CQTr_snapshots_e1900.pth
+130 images are loaded!
+evaluate {} liver_0.nii
+evaluate {} liver_107.nii
+evaluate {} liver_116.nii
+evaluate {} liver_125.nii
+evaluate {} liver_17.nii
+evaluate {} liver_26.nii
+evaluate {} liver_35.nii
+evaluate {} liver_44.nii
+evaluate {} liver_53.nii
+evaluate {} liver_62.nii
+evaluate {} liver_71.nii
+evaluate {} liver_80.nii
+evaluate {} liver_9.nii
+evaluate {} liver_99.nii
+evaluate {} case_00005
+evaluate {} case_00015
+evaluate {} case_00025
+evaluate {} case_00035
+evaluate {} case_00045
+evaluate {} case_00055
+evaluate {} case_00065
+evaluate {} case_00075
+evaluate {} case_00085
+evaluate {} case_00095
+evaluate {} case_00105
+evaluate {} case_00115
+evaluate {} case_00125
+evaluate {} case_00135
+evaluate {} case_00145
+evaluate {} case_00155
+evaluate {} case_00165
+evaluate {} case_00175
+evaluate {} case_00185
+evaluate {} case_00195
+evaluate {} case_00205
+evaluate {} hepaticvessel_008.nii
+evaluate {} hepaticvessel_025.nii
+evaluate {} hepaticvessel_040.nii
+evaluate {} hepaticvessel_058.nii
+evaluate {} hepaticvessel_072.nii
+evaluate {} hepaticvessel_085.nii
+evaluate {} hepaticvessel_096.nii
+evaluate {} hepaticvessel_112.nii
+evaluate {} hepaticvessel_127.nii
+evaluate {} hepaticvessel_140.nii
+evaluate {} hepaticvessel_154.nii
+evaluate {} hepaticvessel_167.nii
+evaluate {} hepaticvessel_183.nii
+evaluate {} hepaticvessel_197.nii
+evaluate {} hepaticvessel_210.nii
+evaluate {} hepaticvessel_223.nii
+evaluate {} hepaticvessel_236.nii
+evaluate {} hepaticvessel_256.nii
+evaluate {} hepaticvessel_271.nii
+evaluate {} hepaticvessel_285.nii
+evaluate {} hepaticvessel_299.nii
+evaluate {} hepaticvessel_320.nii
+evaluate {} hepaticvessel_333.nii
+evaluate {} hepaticvessel_350.nii
+evaluate {} hepaticvessel_369.nii
+evaluate {} hepaticvessel_384.nii
+evaluate {} hepaticvessel_400.nii
+evaluate {} hepaticvessel_416.nii
+evaluate {} hepaticvessel_432.nii
+evaluate {} hepaticvessel_445.nii
+evaluate {} liver_102.nii
+evaluate {} liver_111.nii
+evaluate {} liver_120.nii
+evaluate {} liver_13.nii
+evaluate {} liver_21.nii
+evaluate {} liver_30.nii
+evaluate {} liver_4.nii
+evaluate {} liver_49.nii
+evaluate {} liver_58.nii
+evaluate {} liver_67.nii
+evaluate {} liver_76.nii
+evaluate {} liver_85.nii
+evaluate {} liver_94.nii
+evaluate {} case_00000
+evaluate {} case_00010
+evaluate {} case_00020
+evaluate {} case_00030
+evaluate {} case_00040
+evaluate {} case_00050
+evaluate {} case_00060
+evaluate {} case_00070
+evaluate {} case_00080
+evaluate {} case_00090
+evaluate {} case_00100
+evaluate {} case_00110
+evaluate {} case_00120
+evaluate {} case_00130
+evaluate {} case_00140
+evaluate {} case_00150
+evaluate {} case_00160
+evaluate {} case_00170
+evaluate {} case_00180
+evaluate {} case_00190
+evaluate {} case_00200
+evaluate {} hepaticvessel_001.nii
+evaluate {} hepaticvessel_018.nii
+evaluate {} hepaticvessel_030.nii
+evaluate {} hepaticvessel_050.nii
+evaluate {} hepaticvessel_066.nii
+evaluate {} hepaticvessel_080.nii
+evaluate {} hepaticvessel_090.nii
+evaluate {} hepaticvessel_103.nii
+evaluate {} hepaticvessel_119.nii
+evaluate {} hepaticvessel_133.nii
+evaluate {} hepaticvessel_146.nii
+evaluate {} hepaticvessel_161.nii
+evaluate {} hepaticvessel_175.nii
+evaluate {} hepaticvessel_192.nii
+evaluate {} hepaticvessel_203.nii
+evaluate {} hepaticvessel_217.nii
+evaluate {} hepaticvessel_230.nii
+evaluate {} hepaticvessel_244.nii
+evaluate {} hepaticvessel_265.nii
+evaluate {} hepaticvessel_279.nii
+evaluate {} hepaticvessel_291.nii
+evaluate {} hepaticvessel_308.nii
+evaluate {} hepaticvessel_325.nii
+evaluate {} hepaticvessel_341.nii
+evaluate {} hepaticvessel_361.nii
+evaluate {} hepaticvessel_375.nii
+evaluate {} hepaticvessel_391.nii
+evaluate {} hepaticvessel_407.nii
+evaluate {} hepaticvessel_424.nii
+evaluate {} hepaticvessel_440.nii
+evaluate {} hepaticvessel_455.nii
+Task0-['liver_0.nii'] loss:1.0000 Organ:0.9485 Tumor:0.6695
+Task0-['liver_102.nii'] loss:1.0000 Organ:0.9655 Tumor:0.7859
+Task0-['liver_107.nii'] loss:1.0000 Organ:0.8974 Tumor:0.2105
+Task0-['liver_111.nii'] loss:1.0000 Organ:0.9622 Tumor:0.4456
+Task0-['liver_116.nii'] loss:1.0000 Organ:0.9753 Tumor:0.0001
+Task0-['liver_120.nii'] loss:1.0000 Organ:0.9526 Tumor:0.2814
+Task0-['liver_125.nii'] loss:1.0000 Organ:0.9739 Tumor:0.4973
+Task0-['liver_13.nii'] loss:1.0000 Organ:0.9614 Tumor:0.6422
+Task0-['liver_17.nii'] loss:1.0000 Organ:0.9614 Tumor:0.7734
+Task0-['liver_21.nii'] loss:1.0000 Organ:0.8812 Tumor:0.0678
+Task0-['liver_26.nii'] loss:1.0000 Organ:0.9658 Tumor:0.8425
+Task0-['liver_30.nii'] loss:1.0000 Organ:0.9344 Tumor:0.2887
+Task0-['liver_35.nii'] loss:1.0000 Organ:0.9405 Tumor:0.2007
+Task0-['liver_4.nii'] loss:1.0000 Organ:0.9024 Tumor:0.6461
+Task0-['liver_44.nii'] loss:1.0000 Organ:0.9327 Tumor:0.6749
+Task0-['liver_49.nii'] loss:1.0000 Organ:0.9283 Tumor:0.4540
+Task0-['liver_53.nii'] loss:1.0000 Organ:0.9409 Tumor:0.5641
+Task0-['liver_58.nii'] loss:1.0000 Organ:0.9431 Tumor:0.5662
+Task0-['liver_62.nii'] loss:1.0000 Organ:0.9623 Tumor:0.7319
+Task0-['liver_67.nii'] loss:1.0000 Organ:0.9554 Tumor:0.5644
+Task0-['liver_71.nii'] loss:1.0000 Organ:0.9440 Tumor:0.6863
+Task0-['liver_76.nii'] loss:1.0000 Organ:0.9538 Tumor:0.8891
+Task0-['liver_80.nii'] loss:1.0000 Organ:0.9617 Tumor:0.8814
+Task0-['liver_85.nii'] loss:1.0000 Organ:0.9568 Tumor:0.3377
+Task0-['liver_9.nii'] loss:1.0000 Organ:0.9665 Tumor:0.8505
+Task0-['liver_94.nii'] loss:1.0000 Organ:0.9507 Tumor:0.6538
+Task0-['liver_99.nii'] loss:1.0000 Organ:0.9737 Tumor:0.6654
+Task1-['case_00000'] loss:1.0000 Organ:0.9776 Tumor:0.8075
+Task1-['case_00005'] loss:1.0000 Organ:0.9335 Tumor:0.7891
+Task1-['case_00010'] loss:1.0000 Organ:0.9587 Tumor:0.9133
+Task1-['case_00015'] loss:1.0000 Organ:0.9716 Tumor:0.8767
+Task1-['case_00020'] loss:1.0000 Organ:0.9591 Tumor:0.0450
+Task1-['case_00025'] loss:1.0000 Organ:0.9409 Tumor:0.8435
+Task1-['case_00030'] loss:1.0000 Organ:0.9619 Tumor:0.9442
+Task1-['case_00035'] loss:1.0000 Organ:0.9594 Tumor:0.8339
+Task1-['case_00040'] loss:1.0000 Organ:0.9437 Tumor:0.8203
+Task1-['case_00045'] loss:1.0000 Organ:0.9249 Tumor:0.7334
+Task1-['case_00050'] loss:1.0000 Organ:0.9704 Tumor:0.4641
+Task1-['case_00055'] loss:1.0000 Organ:0.9545 Tumor:0.9358
+Task1-['case_00060'] loss:1.0000 Organ:0.9478 Tumor:0.8755
+Task1-['case_00065'] loss:1.0000 Organ:0.9650 Tumor:0.7092
+Task1-['case_00070'] loss:1.0000 Organ:0.9436 Tumor:0.8918
+Task1-['case_00075'] loss:1.0000 Organ:0.9182 Tumor:0.6674
+Task1-['case_00080'] loss:1.0000 Organ:0.9493 Tumor:0.6890
+Task1-['case_00085'] loss:1.0000 Organ:0.9576 Tumor:0.4516
+Task1-['case_00090'] loss:1.0000 Organ:0.9676 Tumor:0.8855
+Task1-['case_00095'] loss:1.0000 Organ:0.9652 Tumor:0.8626
+Task1-['case_00100'] loss:1.0000 Organ:0.9733 Tumor:0.5490
+Task1-['case_00105'] loss:1.0000 Organ:0.7850 Tumor:0.2834
+Task1-['case_00110'] loss:1.0000 Organ:0.9512 Tumor:0.6542
+Task1-['case_00115'] loss:1.0000 Organ:0.9725 Tumor:0.8338
+Task1-['case_00120'] loss:1.0000 Organ:0.9627 Tumor:0.3394
+Task1-['case_00125'] loss:1.0000 Organ:0.9752 Tumor:0.6579
+Task1-['case_00130'] loss:1.0000 Organ:0.9607 Tumor:0.8055
+Task1-['case_00135'] loss:1.0000 Organ:0.9703 Tumor:0.9536
+Task1-['case_00140'] loss:1.0000 Organ:0.9753 Tumor:0.6416
+Task1-['case_00145'] loss:1.0000 Organ:0.9147 Tumor:0.7150
+Task1-['case_00150'] loss:1.0000 Organ:0.9716 Tumor:0.8458
+Task1-['case_00155'] loss:1.0000 Organ:0.9566 Tumor:0.6038
+Task1-['case_00160'] loss:1.0000 Organ:0.9676 Tumor:0.8272
+Task1-['case_00165'] loss:1.0000 Organ:0.9753 Tumor:0.1560
+Task1-['case_00170'] loss:1.0000 Organ:0.9475 Tumor:0.7129
+Task1-['case_00175'] loss:1.0000 Organ:0.9366 Tumor:0.3349
+Task1-['case_00180'] loss:1.0000 Organ:0.9603 Tumor:0.9098
+Task1-['case_00185'] loss:1.0000 Organ:0.9635 Tumor:0.8006
+Task1-['case_00190'] loss:1.0000 Organ:0.9702 Tumor:0.6446
+Task1-['case_00195'] loss:1.0000 Organ:0.9544 Tumor:0.8439
+Task1-['case_00200'] loss:1.0000 Organ:0.9464 Tumor:0.7743
+Task1-['case_00205'] loss:1.0000 Organ:0.9622 Tumor:0.3983
+Task2-['hepaticvessel_001.nii'] loss:1.0000 Organ:0.7024 Tumor:0.3250
+Task2-['hepaticvessel_008.nii'] loss:1.0000 Organ:0.6540 Tumor:0.5517
+Task2-['hepaticvessel_018.nii'] loss:1.0000 Organ:0.6144 Tumor:0.9201
+Task2-['hepaticvessel_025.nii'] loss:1.0000 Organ:0.5898 Tumor:0.9151
+Task2-['hepaticvessel_030.nii'] loss:1.0000 Organ:0.6781 Tumor:0.8422
+Task2-['hepaticvessel_040.nii'] loss:1.0000 Organ:0.6765 Tumor:0.8947
+Task2-['hepaticvessel_050.nii'] loss:1.0000 Organ:0.7077 Tumor:0.9231
+Task2-['hepaticvessel_058.nii'] loss:1.0000 Organ:0.5590 Tumor:0.9223
+Task2-['hepaticvessel_066.nii'] loss:1.0000 Organ:0.5262 Tumor:0.8930
+Task2-['hepaticvessel_072.nii'] loss:1.0000 Organ:0.6654 Tumor:0.2685
+Task2-['hepaticvessel_080.nii'] loss:1.0000 Organ:0.6395 Tumor:0.8309
+Task2-['hepaticvessel_085.nii'] loss:1.0000 Organ:0.6174 Tumor:0.3287
+Task2-['hepaticvessel_090.nii'] loss:1.0000 Organ:0.5075 Tumor:0.8840
+Task2-['hepaticvessel_096.nii'] loss:1.0000 Organ:0.6866 Tumor:0.8358
+Task2-['hepaticvessel_103.nii'] loss:1.0000 Organ:0.6255 Tumor:0.2622
+Task2-['hepaticvessel_112.nii'] loss:1.0000 Organ:0.6059 Tumor:0.9074
+Task2-['hepaticvessel_119.nii'] loss:1.0000 Organ:0.3940 Tumor:0.8719
+Task2-['hepaticvessel_127.nii'] loss:1.0000 Organ:0.5782 Tumor:0.9157
+Task2-['hepaticvessel_133.nii'] loss:1.0000 Organ:0.3922 Tumor:0.7840
+Task2-['hepaticvessel_140.nii'] loss:1.0000 Organ:0.5016 Tumor:0.7973
+Task2-['hepaticvessel_146.nii'] loss:1.0000 Organ:0.4985 Tumor:0.7068
+Task2-['hepaticvessel_154.nii'] loss:1.0000 Organ:0.4699 Tumor:0.7858
+Task2-['hepaticvessel_161.nii'] loss:1.0000 Organ:0.6769 Tumor:0.3279
+Task2-['hepaticvessel_167.nii'] loss:1.0000 Organ:0.6496 Tumor:0.7653
+Task2-['hepaticvessel_175.nii'] loss:1.0000 Organ:0.5563 Tumor:0.8457
+Task2-['hepaticvessel_183.nii'] loss:1.0000 Organ:0.5650 Tumor:0.8294
+Task2-['hepaticvessel_192.nii'] loss:1.0000 Organ:0.6500 Tumor:0.7548
+Task2-['hepaticvessel_197.nii'] loss:1.0000 Organ:0.5528 Tumor:0.8067
+Task2-['hepaticvessel_203.nii'] loss:1.0000 Organ:0.5982 Tumor:0.9393
+Task2-['hepaticvessel_210.nii'] loss:1.0000 Organ:0.5756 Tumor:0.7183
+Task2-['hepaticvessel_217.nii'] loss:1.0000 Organ:0.5490 Tumor:0.4375
+Task2-['hepaticvessel_223.nii'] loss:1.0000 Organ:0.6662 Tumor:0.8571
+Task2-['hepaticvessel_230.nii'] loss:1.0000 Organ:0.7327 Tumor:0.5284
+Task2-['hepaticvessel_236.nii'] loss:1.0000 Organ:0.5693 Tumor:0.3215
+Task2-['hepaticvessel_244.nii'] loss:1.0000 Organ:0.3900 Tumor:0.7149
+Task2-['hepaticvessel_256.nii'] loss:1.0000 Organ:0.6025 Tumor:0.7703
+Task2-['hepaticvessel_265.nii'] loss:1.0000 Organ:0.6541 Tumor:0.4071
+Task2-['hepaticvessel_271.nii'] loss:1.0000 Organ:0.6703 Tumor:0.8298
+Task2-['hepaticvessel_279.nii'] loss:1.0000 Organ:0.7457 Tumor:0.6497
+Task2-['hepaticvessel_285.nii'] loss:1.0000 Organ:0.5997 Tumor:0.4394
+Task2-['hepaticvessel_291.nii'] loss:1.0000 Organ:0.7469 Tumor:0.6826
+Task2-['hepaticvessel_299.nii'] loss:1.0000 Organ:0.6898 Tumor:0.8494
+Task2-['hepaticvessel_308.nii'] loss:1.0000 Organ:0.5724 Tumor:0.2917
+Task2-['hepaticvessel_320.nii'] loss:1.0000 Organ:0.6385 Tumor:0.8137
+Task2-['hepaticvessel_325.nii'] loss:1.0000 Organ:0.6751 Tumor:0.7586
+Task2-['hepaticvessel_333.nii'] loss:1.0000 Organ:0.4459 Tumor:0.7581
+Task2-['hepaticvessel_341.nii'] loss:1.0000 Organ:0.6037 Tumor:0.7487
+Task2-['hepaticvessel_350.nii'] loss:1.0000 Organ:0.7371 Tumor:0.8146
+Task2-['hepaticvessel_361.nii'] loss:1.0000 Organ:0.5949 Tumor:0.8703
+Task2-['hepaticvessel_369.nii'] loss:1.0000 Organ:0.6319 Tumor:0.8173
+Task2-['hepaticvessel_375.nii'] loss:1.0000 Organ:0.5364 Tumor:0.9090
+Task2-['hepaticvessel_384.nii'] loss:1.0000 Organ:0.7472 Tumor:0.7497
+Task2-['hepaticvessel_391.nii'] loss:1.0000 Organ:0.6153 Tumor:0.8458
+Task2-['hepaticvessel_400.nii'] loss:1.0000 Organ:0.6598 Tumor:0.8400
+Task2-['hepaticvessel_407.nii'] loss:1.0000 Organ:0.7230 Tumor:0.8001
+Task2-['hepaticvessel_416.nii'] loss:1.0000 Organ:0.7435 Tumor:0.5664
+Task2-['hepaticvessel_424.nii'] loss:1.0000 Organ:0.7665 Tumor:0.8830
+Task2-['hepaticvessel_432.nii'] loss:1.0000 Organ:0.5445 Tumor:0.6164
+Task2-['hepaticvessel_440.nii'] loss:1.0000 Organ:0.3805 Tumor:0.7870
+Task2-['hepaticvessel_445.nii'] loss:1.0000 Organ:0.7177 Tumor:0.4754
+Task2-['hepaticvessel_455.nii'] loss:1.0000 Organ:0.5058 Tumor:0.6411
+Sum results
+Sum: Task0- loss:1.0000 Organ:0.9479 Tumor:0.5508
+Sum: Task1- loss:1.0000 Organ:0.9529 Tumor:0.6982
+Sum: Task2- loss:1.0000 Organ:0.6094 Tumor:0.7185
+Sum: Task3- loss:0.0000 Organ:0.0000 Tumor:0.0000
+Sum: Task4- loss:0.0000 Organ:0.0000 Tumor:0.0000
+Sum: Task5- loss:0.0000 Organ:0.0000 Tumor:0.0000
+Sum: Task6- loss:0.0000 Organ:0.0000 Tumor:0.0000
+47964.78578676656 seconds

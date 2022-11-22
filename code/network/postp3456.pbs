@@ -1,0 +1,9 @@
+#PBS!/bin/bash
+#PBS -N postp_3456
+#PBS -l nodes=sist-gpu03
+#PBS -q sist
+#PBS -j oe
+#PBS -o /hpc/data/home/sist/liuxy15/2508/code/network
+cd 2508/code/network
+source activate Yang
+nohup python postp_save.py --img_folder_path='outputs32q_3456/CCQ_sgdlr1e2_2500_32q/' --postp_outputs='postp_outputs_3456/CCQ_sgdlr1e2_2500_32q/'
