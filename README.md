@@ -52,9 +52,9 @@ The folder structure of dataset should be like
     |        ├── ...
     ├── 1Kidney
     ├── ...
-### 3. Model
-Pretrained model is available in [checkpoint]([https://competitions.codalab.org/competitions/17094](https://drive.google.com/file/d/1YAvLnm_vujniOqo1VZVA5Rff68rqMBhO/view?usp=share_link))
-### 2. Training
+### 2. Model
+Pretrained model is available in [checkpoint](https://drive.google.com/file/d/1YAvLnm_vujniOqo1VZVA5Rff68rqMBhO/view?usp=share_link)
+### 3. Training
 * cd `network/' and run 
 ```python
 CUDA_VISIBLE_DEVICES=0,1,2,3 nohup python -m torch.distributed.launch --nproc_per_node=4 --master_port=$RANDOM train.py \
@@ -80,7 +80,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 nohup python -m torch.distributed.launch --nproc_pe
 >> train_result.txt &
 ```
 
-### 3. Evaluation
+### 4. Evaluation
 ```python
 CUDA_VISIBLE_DEVICES=0,1,2,3 nohup python evaluate.py \
 --val_list='list/MOTS/MOTS_test.txt' \
@@ -96,7 +96,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 nohup python evaluate.py \
 >> evaluate.txt &
 ```
 
-### 4. Post-processing
+### 5. Post-processing
 
 ```python
 nohup python postp_save.py --img_folder_path='outputs32q/CCQ_sgdlr1e2_2500_32q/' \
