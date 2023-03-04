@@ -52,7 +52,8 @@ The folder structure of dataset should be like
     |        ├── ...
     ├── 1Kidney
     ├── ...
-
+### 3. Model
+Pretrained model is available in [data](https://competitions.codalab.org/competitions/17094)
 ### 2. Training
 * cd `network/' and run 
 ```python
