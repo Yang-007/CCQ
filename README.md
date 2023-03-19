@@ -52,7 +52,7 @@ The folder structure of dataset should be like
     |        ├── ...
     ├── 1Kidney
     ├── ...
-Prepared dataset is available in [data](https://pan.baidu.com/s/1bDpZTw2ppKRmrOp94AtubQ?pwd=5935)
+Prepared dataset is available in [data](https://drive.google.com/drive/folders/19vsGF2VlTsA4Z9VxpOIvbG7YRFR0YEgl?usp=sharing)
 
 ### 2. Model
 Pretrained model is available in [checkpoint](https://drive.google.com/file/d/1YAvLnm_vujniOqo1VZVA5Rff68rqMBhO/view?usp=share_link)
