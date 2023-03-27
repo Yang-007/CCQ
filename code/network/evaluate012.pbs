@@ -1,9 +1,0 @@
-#PBS!/bin/bash
-#PBS -N evaluate_012
-#PBS -l nodes=sist-gpu02
-#PBS -q sist
-#PBS -j oe
-#PBS -o /hpc/data/home/sist/liuxy15/2508/code/network
-cd 2508/code/network
-source activate Yang
-CUDA_VISIBLE_DEVICES=0,1,2,3 nohup python evaluate.py --val_list='list/MOTS/MOTS_test012.txt' --reload_from_checkpoint=True --reload_path='snapshots/CCQ_sgdlr1e2_2500_32q/MOTS_CQTr_snapshots_e1900.pth' --save_path='outputs32q_012/CCQ_sgdlr1e2_2500_32q' --input_size='64,192,192' --num_workers=2 --num_cls=7 --output_channel=2 --num_query=32 --weight_std=True
