@@ -8,7 +8,7 @@ This repo holds the pytorch implementation of CCQ:<br />
 
 **CCQ: Cross-class Query Network for Partially Labeled Organ Segmentation**
 
-
+It is accepted by AAAI Conference on Artificial Intelligence, AAAI 2023.
 
 ## Requirements
 Python 3.7.6<br />
